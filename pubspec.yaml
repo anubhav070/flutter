@@ -1,0 +1,53 @@
+name: attendance_geetai
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  cupertino_icons: ^1.0.8
+  flutter:
+    sdk: flutter
+  flutter_launcher_icons: ^0.14.4
+  fluttertoast: ^8.2.12
+  geocoding: ^4.0.0
+  geolocator: ^14.0.1
+  google_maps_flutter: ^2.12.3
+  http: ^1.4.0
+  intl: ^0.20.2
+  permission_handler: ^12.0.1
+  shared_preferences: ^2.5.3
+  table_calendar: ^3.2.0
+  webview_flutter_android: ^4.7.0
+
+dev_dependencies:
+  flutter_lints: ^5.0.0
+  flutter_test:
+    sdk: flutter
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icons/icon.png"
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+# The following section is specific to Flutter packages.
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/icons/attendance.png
+    - assets/icons/visit.png
+    - assets/icons/Leave.png
+    - assets/icons/Leave.png
