@@ -1,16 +1,22 @@
-# attendance_geetai
+ Teacher Attendance System (Flutter App)
+This Flutter-based mobile application is designed for managing teacher attendance in educational institutions. The app includes features that allow teachers to mark their attendance whether they are on-site or on a visit, apply for leave, and view their attendance, leave, and visit history.
 
-A new Flutter project.
+✨ Key Features:
+✅ Mark Attendance – Teachers can mark their daily attendance.
 
-## Getting Started
+📍 Visit-Based Attendance – If a teacher is on an official visit, they can still record their attendance.
 
-This project is a starting point for a Flutter application.
+📅 Leave Application – Teachers can apply for leaves directly through the app.
 
-A few resources to get you started if this is your first Flutter project:
+📖 Leave History – View the list of all previous leave applications and their statuses.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+🕒 Attendance History – Access the history of all attendance records.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+🧭 Visit History – Track past visits and corresponding attendance entries.
+
+🔧 Tech Stack:
+Flutter – For cross-platform mobile app development.
+
+Dart – Programming language.
+
+Firebase / MySQL / PHP (optional) – Backend support (update this as per your stack).
